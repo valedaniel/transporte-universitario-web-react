@@ -1,0 +1,63 @@
+{
+  "name": "transporte-universitario",
+  "version": "0.1.0",
+  "private": true,
+  "main": "server.js",
+  "engines": {
+    "npm": "6.10.2",
+    "node": "12.8.0"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.9.13",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.56",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "@types/axios": "^0.14.0",
+    "@types/dotenv": "^8.2.0",
+    "@types/jest": "^24.0.0",
+    "@types/node": "^12.0.0",
+    "@types/react": "^16.9.0",
+    "@types/react-dom": "^16.9.0",
+    "@types/react-router-dom": "^5.1.5",
+    "@types/react-scroll": "^1.5.4",
+    "axios": "^0.19.2",
+    "bootstrap": "^4.4.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-favicon": "^2.0.1",
+    "path": "^0.12.7",
+    "react": "^16.13.1",
+    "react-bootstrap": "^1.0.1",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.4.1",
+    "react-scroll": "^1.7.16",
+    "reactstrap": "^8.4.1",
+    "typescript": "~3.7.2"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "deploy": "heroku git:remote -a sistema-universitario && git push heroku master"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
